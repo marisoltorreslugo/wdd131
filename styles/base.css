@@ -54,6 +54,10 @@ nav {
   font-family: var(--header-font);
 }
 
+.navigation a:hover {
+  color: #bbd7fd;
+}
+
 .header-page {
   margin: 30px auto;
   text-align: center;
@@ -75,6 +79,8 @@ main{
   display: block;
   padding: 11px;
   font-family: var(--header-font);
+  font-size: 0.75rem;
+  font-weight: normal;
   text-align: center;
 }
 
@@ -89,6 +95,7 @@ main{
   grid-template-columns: 2fr 1fr;
   justify-items: center;
   padding: 0 20px 25px;
+  margin-top: 20px;
 }
 
 .grid-state {
@@ -113,6 +120,7 @@ main{
   border-bottom: 1px solid #9f9f9f;
   width: 90%;
   margin: 0 auto;
+  margin-top: 20px;
 }
 
 .body-state {
@@ -120,20 +128,7 @@ main{
   padding-right: 15px;
 }
 
-.margin-20 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.margin-top-20 {
-  margin-top: 20px;
-}
-
-.margin-bottom-20 {
-  margin-bottom: 20px;
-}
-
-.margin-bottom-50 {
+.description {
   margin-bottom: 50px;
 }
 
