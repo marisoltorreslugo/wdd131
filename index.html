@@ -3,10 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WDD 131</title>
+  <title>WDD 131 – Dynamic Web Fundamentals - Marisol Torres Lugo</title>
+  <meta name="description"
+    content="WDD 131 – Dynamic Web Fundamentals | Marisol Torres Lugo | About my story">
+  <meta name="author" content="Marisol Torres Lugo">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+  <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-  <h1>WDD 131 | Marisol Torres.</h1>
+  <header>
+    <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+
+    <nav>
+      <ul class="navigation">
+        <li><a href="https://www.linkedin.com/in/marisol-torres-lugo/">LinkedIn</a></li>
+        <li><a href="https://byupw.instructure.com/">I-Learn</a></li>
+        <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scripture</a></li>
+        <li><a href="#">Final Project</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="header-page">Marisol Torres Lugo</h1>
+
+    <div class="grid-container">
+    <section class="card about-me">
+      <span class="header-card">About Me</span>
+
+      <div class="grid-about-me margin-top-20">
+        <div>
+          <p class="margin-bottom-50">I am Marisol Torres Lugo, and I live in Mexico. I was born in Culiacán, Sinaloa, and I currently reside in Mexico City. My most recent job was as a Web Developer at FamilySearch. I am married and have three children. I enjoy exercising, spending time with my family, going out, and having new experiences.</p>
+          <span class="state-header margin-top-20">Mazatlán, Sinaloa</span>
+
+          <div class="grid-state">
+            <div>
+              <img src="images/malecon-mazatlan.webp" alt="Beach in Mazatlán, Sinaloa" height="100">
+            </div>
+            <div class="body-state">
+              <p>Mazatlán is a beautiful tourist destination in Mexico, famous for its golden-sand beaches, impressive boardwalk, and spectacular sunsets. Known as "The Pearl of the Pacific," it offers a perfect blend of history, culture, gastronomy, and entertainment. Visitors can explore the Historic Center, enjoy water sports, savor delicious seafood, and experience the joy of its traditional Carnival.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div>
+          <img src="images/marisol-torres-lugo.webp" alt="Marisol Torres Lugo" height="160">
+        </div>
+      </div>
+    </section>
+
+    <section class="card sources-container">
+      <span class="header-card">Web Dev Resources</span>
+
+      <div class="sources-list">
+        <ul>
+          <li><a href="https://dev.to/">Dev.to Community</a></li>
+          <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+          <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+          <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+          <li><a href="https://www.udemy.com/">Udemy</a></li>
+          <li><a href="https://picsum.photos/">Lorem Picsum Image Placeholder</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="col-1">&copy;<span id="currentyear"></span> | Marisol Torres Lugo | Mexico City</p>
+    <p id="lastModified"></p>
+  </footer>
   
 </body>
 </html>
