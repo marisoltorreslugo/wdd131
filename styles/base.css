@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 1.2rem;
+}
+
 #course-title {
   display: block;
   background-color: #112147;
@@ -156,6 +160,11 @@ main{
 ul {
   list-style-position: inside;
   padding-left: 0;
+}
+li {
+  padding: 8px;
+  font-size: 1.1rem;
+  font-family: var(--header-font);
 }
 
 footer {
