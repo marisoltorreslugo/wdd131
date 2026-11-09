@@ -38,7 +38,7 @@ span.menu {
 }
 
 /* Navegation hidden in mobile */
-.navigation {
+nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,12 +49,12 @@ span.menu {
 }
 
 /* Menu open */
-.navigation.open {
+nav.open {
    max-height: 500px;
   visibility: visible;
 }
 
-.navigation a {
+nav a {
   color: white;
   text-decoration: none;
   font-family: var(--header-font);
@@ -62,7 +62,7 @@ span.menu {
   font-size: 1.2rem;
 }
 
-.navigation a:hover {
+nav a:hover {
   background-color: #572080;
 }
 
