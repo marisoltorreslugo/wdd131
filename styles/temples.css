@@ -39,15 +39,19 @@ span.menu {
 
 /* Navegation hidden in mobile */
 .navigation {
-  display: none;
+  display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
-  text-align: center;
+  max-height: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
 
 /* Menu open */
 .navigation.open {
-  display: flex;
+   max-height: 500px;
+  visibility: visible;
 }
 
 .navigation a {

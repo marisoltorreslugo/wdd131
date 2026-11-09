@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .header-container {
     flex-wrap: nowrap;
   }
@@ -8,10 +8,12 @@
   }
 
   .navigation {
-    display: flex;
     flex-direction: row;
     justify-content: flex-end;
     width: auto;
+    max-height: none;
+    overflow: visible;
+    visibility: visible;
     gap: 1rem;
   }
 
