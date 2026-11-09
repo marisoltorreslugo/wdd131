@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+  .header-container {
+    flex-wrap: nowrap;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: auto;
+    gap: 1rem;
+  }
+
+  .navigation a {
+    padding: 0.5rem;
+  }
+}

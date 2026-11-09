@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <meta name="description"
+    content="WDD 131 – Dynamic Web Fundamentals | Marisol Torres Lugo | Picture Album">
+  <meta name="author" content="Marisol Torres Lugo">
+  <link rel="stylesheet" href="styles/temples.css">
+  <link rel="stylesheet" href="styles/temples-large.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+  <script src="scripts/temples.js" defer></script>
+  <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <span class="menu">Temple Album</span>
+
+      <button
+        id="menu-button"
+        class="menu-button"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="navigation"
+      >
+        ☰
+      </button>
+
+      <nav id="navigation" class="navigation">
+        <a href="#">Home</a>
+        <a href="#">Old</a>
+        <a href="#">New</a>
+        <a href="#">Large</a>
+        <a href="#">Small</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Home</h1>
+
+    <section>
+      <div class="container">
+        <figure>
+          <img class="hover" src="images/temples/temple-colonia-juarez.webp" loading="lazy" width="250" height="167" alt="Colonia Juárez Temple">
+          <figcaption>Colonia Juárez Temple</figcaption>
+        </figure>
+        <figure><img class="rocorn" src="images/temples/temple-guadalajara.webp" loading="lazy" width="250" height="167" alt="Guadalajara Mexico Temple">
+          <figcaption>Guadalajara, Mexico Temple</figcaption>
+        </figure>
+        <figure><img class="opac" src="images/temples/temple-hermosillo-sonora.webp" alt="Hermosillo Temple">
+          <figcaption>Hermosillo, Sonora Temple</figcaption>
+        </figure>
+        <figure><img class="blur" src="images/temples/temple-juarez-city.webp" loading="lazy" width="250" height="167" alt="Juárez City Temple">
+          <figcaption>Juárez City Temple</figcaption>
+        </figure>
+        <figure><img class="gray" src="images/temples/temple-merida.webp" loading="lazy" width="250" height="167" alt="Mérida Temple">
+          <figcaption>Mérida Temple</figcaption>
+        </figure>
+        <figure><img class="object" src="images/temples/temple-mexico-city.webp" loading="lazy" width="250" height="167" alt="México City Temple">
+          <figcaption>México City Temple</figcaption>
+        </figure>
+        <figure><img class="contrast" src="images/temples/temple-monterrey.webp" loading="lazy" width="250" height="167" alt="Monterrey Temple">
+          <figcaption>Monterrey Temple</figcaption>
+        </figure>
+        <figure><img class="saturate" src="images/temples/temple-oaxaca.webp" loading="lazy" width="250" height="167" alt="Oaxaca Temple">
+          <figcaption>Oaxaca Temple</figcaption>
+        </figure>
+        <figure><img class="shape-outside" src="images/temples/temple-tampico.webp" loading="lazy" width="250" height="167" alt="Tampico Temple">
+          <figcaption>Tampico Temple</figcaption>
+        </figure>
+        <!-- <figure><img class="mbm-difference" src="images/temples/temple-tuxtla-gutierrez.webp" loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+          <figcaption>Temple 10</figcaption>
+        </figure>
+        <figure><img class="mbm-hard-light" src="images/temples/temple-veracruz.webp" loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+          <figcaption>Temple 11</figcaption>
+        </figure>
+        <figure>
+          <img class="transform" src="images/temples/temple-villahermosa.webp" loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+          <figcaption>Temple 12</figcaption>
+        </figure> -->
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy;<span id="currentyear"></span> | Marisol Torres Lugo | Mexico City</p>
+    <p id="lastModified"></p>
+  </footer>
+  
+</body>
+</html>
