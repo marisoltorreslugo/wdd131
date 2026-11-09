@@ -61,7 +61,7 @@ span.menu {
 }
 
 body {
-	font-family: Roboto, sans-serif;
+	font-family: var(--body-font);
 }
 h1 {
 	font-size: 2.5rem;
