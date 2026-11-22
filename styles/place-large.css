@@ -1,0 +1,66 @@
+@media screen and (min-width: 768px) {
+  main {
+    position: relative;
+    background-color: var(--primary-color);
+  }
+
+  .data {
+    position: absolute;
+    background-color: rgb(from var(--arena-color) r g b /92%);
+    padding: 20px;
+  }
+
+  .data h2 {
+    background-color: var(--secondary-color);
+    margin-top: 0;
+    margin-left: -30px;
+    padding: 8px 10px;
+    color: white;
+    font-size: 1.5rem;    
+    text-align: left;
+  }
+
+  .info-1 {
+    top: 0px;
+    left: 40px;
+  }
+
+  .info-2 {
+    bottom: 50px;
+    right: 40px;
+  }
+
+  table.weather {
+      margin-bottom: 0;
+  }
+
+  .weather-header {
+    background-color: var(--secondary-color);
+    margin-left: -30px;
+    margin-bottom: 20px;
+  }
+
+  .weather-header h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 0;
+  }
+
+  .weather-header h2::after {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+    background-image: url("../images/place/cloud-sun-rain-solid-full.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .data img  {
+    display: none;
+  }  
+}

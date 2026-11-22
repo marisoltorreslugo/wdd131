@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 131 – Dynamic Web Fundamentals - Marisol Torres Lugo</title>
+  <meta name="description"
+    content="WDD 131 – Dynamic Web Fundamentals | Marisol Torres Lugo | Country Page">
+  <meta name="author" content="Marisol Torres Lugo">
+  <link rel="stylesheet" href="styles/place.css">
+  <link rel="stylesheet" href="styles/place-large.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+  <script src="scripts/place.js" defer></script>
+  <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Mazatlán</h1>
+    
+  </header>
+
+  <main>
+    <div class="line"></div>
+    <div class="hero">
+      <picture>
+        <source media="(min-width: 1000px)" srcset="images/place/hero-large-place.webp">
+        <source media="(min-width: 550px)" srcset="images/place/hero-medium-place.webp">
+        <img src="images/place/hero-small-place.webp" alt="Buenos Aires Argentina Temple" width="500" height="auto">
+      </picture>
+    </div>
+
+    <section class="data info-1">
+      <h2>Data</h2>
+      <table>
+        <tbody>
+          <tr>
+            <th scope="row">Area:</th>
+            <td>2,533 km²</td>
+          </tr>
+          <tr>
+            <th scope="row">Population:</th>
+            <td>501,441</td>
+          </tr>
+          <tr>
+            <th scope="row">Capital:</th>
+            <td>Sinaloa</td>
+          </tr>
+          <tr>
+            <th scope="row">Languages:</th>
+            <td>Spanish, Mexico</td>
+          </tr>
+          <tr>
+            <th scope="row">Currency:</th>
+            <td>Mexican Peso (MXN)</td>
+          </tr>
+          <tr>
+            <th scope="row">Time Zone:</th>
+            <td>UTC−7 (MST)</td>
+          </tr>
+          <tr>
+            <th scope="row">Calling Code:</th>
+            <td>+52 (669)</td>
+          </tr>
+          <tr>
+            <th scope="row">Internet TLD:</th>
+            <td>.mx</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="data info-2">
+      <div class="weather-header ">
+        <h2>Weather</h2>        
+      </div>
+
+      <img src="images/place/weather-icon.svg" alt="Weather conditions" class="weather-icon" width="80" height="80">
+
+      <table class="weather">
+        <tbody>
+          <tr>
+            <th scope="row">Temperature:</th>
+            <td>22 °C</td>
+          </tr>
+          <tr>
+            <th scope="row">Conditions:</th>
+            <td>Sunny</td>
+          </tr>
+          <tr>
+            <th scope="row">Wind:</th>
+            <td>10 km/h</td>
+          </tr>
+          <tr>
+            <th scope="row">Wind Chill:</th>
+            <td id="wind-chill"></td>
+          </tr>         
+        </tbody>
+      </table>
+    </section>
+    <div class="line"></div>
+  </main>
+
+  <footer>
+    <p>&copy;<span id="currentyear"></span> | Marisol Torres Lugo | Mexico City</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
