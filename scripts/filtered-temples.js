@@ -16,7 +16,7 @@ const temples = [
 		dedicated: "2005, August, 7",
 		area: 11500,
 		imageUrl:
-			"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg",
+			"https://churchofjesuschristtemples.org/assets/img/temples/aba-nigeria-temple/aba-nigeria-temple-5087-main.jpg",
 	},
 	{
 		templeName: "Manti Utah",
@@ -24,7 +24,7 @@ const temples = [
 		dedicated: "1888, May, 21",
 		area: 74792,
 		imageUrl:
-			"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg",
+			"https://churchofjesuschristtemples.org/assets/img/temples/manti-utah-temple/manti-utah-temple-40551-main.jpg",
 	},
 	{
 		templeName: "Payson Utah",
@@ -32,7 +32,7 @@ const temples = [
 		dedicated: "2015, June, 7",
 		area: 96630,
 		imageUrl:
-			"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg",
+			"https://churchofjesuschristtemples.org/assets/img/temples/payson-utah-temple/payson-utah-temple-62834-main.jpg",
 	},
 	{
 		templeName: "Yigo Guam",
