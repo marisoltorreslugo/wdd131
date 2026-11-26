@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 131 – Dynamic Web Fundamentals - Marisol Torres Lugo</title>
+  <meta name="description"
+    content="WDD 131 – Dynamic Web Fundamentals | Marisol Torres Lugo | Picture Album">
+  <meta name="author" content="Marisol Torres Lugo">
+  <link rel="stylesheet" href="styles/filtered-temples.css">
+  <link rel="stylesheet" href="styles/filtered-temples-large.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+  <script src="scripts//filtered-temples.js" defer></script>
+  <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <span class="menu">Temple Album</span>
+
+      <button
+        id="menu-button"
+        class="menu-button"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="navigation"
+      >
+        ☰
+      </button>
+
+      <nav id="navigation">
+        <a href="#" id="all-temples">Home</a>
+        <a href="#" id="old-temples">Old</a>
+        <a href="#" id="new-temples">New</a>
+        <a href="#" id="temples-larger">Large</a>
+        <a href="#" id="temples-smaller">Small</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Home</h1>
+
+    <section>
+      <div class="container res-grid">
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy;<span id="currentyear"></span> | Marisol Torres Lugo | Mexico City</p>
+    <p id="lastModified"></p>
+  </footer>
+  
+</body>
+</html>

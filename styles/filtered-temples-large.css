@@ -1,0 +1,23 @@
+@media (min-width: 769px) {
+  .header-container {
+    flex-wrap: nowrap;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    width: auto;
+    max-height: none;
+    overflow: visible;
+    visibility: visible;
+    gap: 1rem;
+  }
+
+  nav a {
+    padding: 0.5rem;
+  }
+}
